@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3348BA"
+    tools:context=".Welcome">
+
+
+      <Button
+          android:id="@+id/btnClick"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/button_click"
+          android:text="Sports ">
+
+      </Button>
+
+
+      <ImageButton
+          android:id="@+id/btnFootball"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:layout_gravity="center"
+          android:layout_margin="10dp"
+          android:layout_weight="1"
+          android:background="@drawable/football"
+          android:onClick="btnFootball" />
+
+      <ImageButton
+          android:id="@+id/btnBasketball"
+          android:layout_width="130dp"
+          android:layout_height="180dp"
+          android:layout_gravity="center_vertical"
+          android:layout_margin="10dp"
+          android:layout_weight="1"
+          android:background="@drawable/download"
+          android:onClick="btnBasketball" />
+
+      <ImageButton
+          android:id="@+id/btnHandball"
+          android:layout_width="130dp"
+          android:layout_height="180dp"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:layout_gravity="right|center_vertical|end"
+          android:layout_margin="10dp"
+          android:layout_weight="1"
+          android:background="@drawable/hand"
+          android:onClick="btnHandball" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
