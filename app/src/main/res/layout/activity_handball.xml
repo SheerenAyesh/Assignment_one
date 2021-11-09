@@ -11,7 +11,7 @@
         android:id="@+id/text_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What is basketball?"
+        android:text="What Handball?"
         android:textColor="#4559C8"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -34,26 +34,12 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Basketball is a game played between two teams of five players each on a rectangular court,usually indoors. Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop and net called a basket."
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="handball,any of a family of games played in walled courts or against a single wall, with a small rubber ball that is struck with hand or fist against the wall. The object is to cause the ball to rebound with variations of power or speed and at such an angle that the opposition cannot return it. There are three versions of handball: four-wall, three-wall, and one-wall. Each may be played by two (singles) or four (doubles)."            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/black"
             android:textSize="15dp" />
     </ScrollView>
 
-    <TextView
-        android:id="@+id/text_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="70dp"
-        android:text="What is basketball?"
-        android:textColor="#4559C8"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="499dp">
 
-    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

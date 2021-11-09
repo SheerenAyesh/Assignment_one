@@ -15,7 +15,7 @@ public class Basketball extends AppCompatActivity {
 
         new Thread(new Runnable() {
             public void run(){
-                txt1.setText("Thread!!");
+                txt1.setText("Test!!");
             }
         }).start();
 

@@ -16,7 +16,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="#7A86CA"
-        android:text="Home Page"
+        android:text="Sports"
         android:textColor="#212121"
         android:onClick="btnHomeonClick"/>
 </RelativeLayout>
